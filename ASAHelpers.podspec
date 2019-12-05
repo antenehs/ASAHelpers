@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.swift_versions = ['4.2', '5.0', '5.1']
+  s.swift_versions = ['5.0', '5.1']
 
   s.source_files = 'ASAHelpers/Extensions/*.swift', 'ASAHelpers/Helpers/*.swift', 'ASAHelpers/CustomViews/*.swift', 'ASAHelpers/Scripts/*.sh', 'ASAHelpers/Styling/*.swift'
 
