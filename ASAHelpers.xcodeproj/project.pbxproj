@@ -30,7 +30,6 @@
 		663AEEDB239786D5002BA00F /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663AEEDA239786D5002BA00F /* DateFormatterExtensions.swift */; };
 		663AEEDD23978884002BA00F /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663AEEDC23978884002BA00F /* Sync.swift */; };
 		665C38521EB8009C0080D235 /* ASAHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C38501EB8009C0080D235 /* ASAHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		665C385E1EB809110080D235 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665C385D1EB809110080D235 /* Test.storyboard */; };
 		665C38661EB809A90080D235 /* ASAHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C38651EB809A90080D235 /* ASAHelpersTests.swift */; };
 		665C38681EB809A90080D235 /* ASAHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C384D1EB8009C0080D235 /* ASAHelpers.framework */; };
 		666C31461EBEBE7C00B057A4 /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C31451EBEBE7C00B057A4 /* ConstraintsHelper.swift */; };
@@ -74,7 +73,6 @@
 		665C384D1EB8009C0080D235 /* ASAHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASAHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665C38501EB8009C0080D235 /* ASAHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAHelpers.h; sourceTree = "<group>"; };
 		665C38511EB8009C0080D235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		665C385D1EB809110080D235 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		665C38631EB809A90080D235 /* ASAHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		665C38651EB809A90080D235 /* ASAHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAHelpersTests.swift; sourceTree = "<group>"; };
 		665C38671EB809A90080D235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				666C31531EBECD3C00B057A4 /* Scripts */,
 				66F08F642397627400B86868 /* Styling */,
 				665C38511EB8009C0080D235 /* Info.plist */,
-				665C385D1EB809110080D235 /* Test.storyboard */,
 			);
 			path = ASAHelpers;
 			sourceTree = "<group>";
@@ -265,7 +262,7 @@
 					665C384C1EB8009C0080D235 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = FGEKQ9U6E7;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
 					665C38621EB809A90080D235 = {
@@ -300,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				663AEECF239785BD002BA00F /* BuildPhaseScripts.sh in Resources */,
-				665C385E1EB809110080D235 /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +498,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -524,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
